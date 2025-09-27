@@ -215,6 +215,27 @@ using namespace std;
 //     return 0;
 // }
 
+// type 2
+
+// void add(int, int);
+// void add(int, int, int);
+
+// int main()
+// {
+//   add(1,2);
+//   add(1,2,3);
+//   return 0;
+// }
+
+// void add(int x, int y)
+// {
+//   cout<< endl<< "Sum of 2 no is :"<< x+y;
+// }
+// void add(int x, int y, int z)
+// {
+//   cout<<endl<<"sum of 3 no is :"<<x+y+z;
+// }
+
 //////////////////////////////////////////////////////////////////Practices Factorial//////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -241,7 +262,7 @@ using namespace std;
 // }
 
 
-//////////////////////////////////////////////FInd area of circle
+//////////////////////////////////////////////FInd area of circle/////////////////////////////////////////////////////////////////
 
 // float findArea(float r) 
 // {
@@ -424,6 +445,31 @@ using namespace std;
 
 
 // }
+//////////////////////////hard even function/////////////////////////////////////////
+// void add(int);
+
+// int main()
+// {
+//   int a;
+//   cout<<"Enter value: "<<endl;
+//   cin>>a;
+//   add(a);
+
+//   return 0;
+// }
+
+// void add(int x)
+// {
+//   if (x % 2 == 0)
+//   {
+//     cout<<"even"<<endl;
+//   }
+//   else
+//   {
+//     cout<<"The value is odd";
+//   }
+  
+// }
 
 // void min (int a[], int size)
 // {
@@ -475,7 +521,7 @@ using namespace std;
 //   return 0;
 // }
 
-//************************2. fibonaci******************************************************************// 
+************************2. fibonaci******************************************************************// 
 
 // int fib(int n)
 // {
@@ -529,5 +575,7 @@ using namespace std;
 //   cout<<a<<endl;
 //   return 0;
 // }
+
+// type of recursion 1-direct and indirect 
 
 
